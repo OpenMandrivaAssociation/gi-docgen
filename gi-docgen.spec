@@ -15,7 +15,7 @@ BuildRequires:	python3dist(markdown)
 BuildRequires:	python3dist(markupsafe)
 BuildRequires:	python3dist(pygments)
 BuildRequires:	python3dist(toml)
-#BuildRequires:	python-typogrify
+BuildRequires:	python3dist(typogrify)
 BuildRequires:	python3dist(wheel)
 
 %description
