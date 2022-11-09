@@ -17,6 +17,7 @@ BuildRequires:	python3dist(pygments)
 BuildRequires:	python3dist(toml)
 BuildRequires:	python3dist(typogrify)
 BuildRequires:	python3dist(wheel)
+BuildRequires:	python3dist(pip)
 
 %description
 GI-DocGen is a document generator for GObject-based libraries. GObject is
