@@ -41,4 +41,4 @@ reference of these libraries, as well as other ancillary documentation.
 %{_datadir}/pkgconfig/gi-docgen.pc
 %{_mandir}/man1/%{name}.1.*
 %{python_sitelib}/gidocgen/
-#{python_sitelib}/gi_docgen-%{version}-py%{python_version}.egg-info/
+%{python_sitelib}/gi_docgen-%{version}.dist-info/
