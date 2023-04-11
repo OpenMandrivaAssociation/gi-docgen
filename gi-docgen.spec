@@ -1,11 +1,11 @@
 Name:		gi-docgen
-Version:	2022.2
-Release:	2
+Version:	2023.1
+Release:	1
 Summary:	Documentation tool for GObject-based libraries
 Group:		Development/Python
 License:	GPLv3+ and ASL 2.0 and CC0-1.0
 Url:		https://gitlab.gnome.org/GNOME/gi-docgen/
-Source0:	https://gitlab.gnome.org/GNOME/gi-docgen/-/archive/%{version}/%{name}-%{version}.tar.xz
+Source0:	https://gitlab.gnome.org/GNOME/gi-docgen/-/archive/%{version}/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 
 BuildRequires:	meson
