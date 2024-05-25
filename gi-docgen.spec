@@ -1,3 +1,5 @@
+%undefine _debugsource_packages
+
 Name:		gi-docgen
 Version:	2024.1
 Release:	1
