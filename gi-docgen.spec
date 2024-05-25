@@ -1,5 +1,5 @@
 Name:		gi-docgen
-Version:	2023.3
+Version:	2024.1
 Release:	1
 Summary:	Documentation tool for GObject-based libraries
 Group:		Development/Python
