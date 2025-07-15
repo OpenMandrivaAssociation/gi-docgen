@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:		gi-docgen
-Version:	2025.3
+Version:	2025.4
 Release:	1
 Summary:	Documentation tool for GObject-based libraries
 Group:		Development/Python
