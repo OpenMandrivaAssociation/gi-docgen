@@ -2,7 +2,7 @@
 
 Name:		gi-docgen
 Version:	2025.5
-Release:	2
+Release:	3
 Summary:	Documentation tool for GObject-based libraries
 Group:		Development/Python
 License:	GPLv3+ and ASL 2.0 and CC0-1.0
