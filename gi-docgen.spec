@@ -2,7 +2,7 @@
 
 Name:		gi-docgen
 Version:	2026.1
-Release:	2
+Release:	3
 Summary:	Documentation tool for GObject-based libraries
 Group:		Development/Python
 License:	GPLv3+ and ASL 2.0 and CC0-1.0
@@ -11,15 +11,15 @@ Source0:	https://gitlab.gnome.org/GNOME/gi-docgen/-/archive/%{version}/%{name}-%
 BuildArch:	noarch
 
 BuildRequires:	meson
-BuildRequires:	python3dist(setuptools)
-BuildRequires:	python3dist(jinja2)
-BuildRequires:	python3dist(markdown)
-BuildRequires:	python3dist(markupsafe)
-BuildRequires:	python3dist(pygments)
-BuildRequires:	python3dist(toml)
-BuildRequires:	python3dist(typogrify)
-BuildRequires:	python3dist(wheel)
-BuildRequires:	python3dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(jinja2)
+BuildRequires:	python%{pyver}dist(markdown)
+BuildRequires:	python%{pyver}dist(markupsafe)
+BuildRequires:	python%{pyver}dist(pygments)
+BuildRequires:	python%{pyver}dist(toml)
+BuildRequires:	python%{pyver}dist(typogrify)
+BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	python%{pyver}dist(pip)
 
 %description
 GI-DocGen is a document generator for GObject-based libraries. GObject is
